@@ -15,7 +15,7 @@
 </head>
 <body class="<?php print $body_classes ?>">
 
-	<?php require_once("sites/all/files/navbar/osu-navbar-b-custom.php"); ?>
+	<?php require_once(path_to_theme() . "/navbar/osu-navbar-b-custom.php"); ?>
 
 	<div id="header">
 		<div class="container">
@@ -56,7 +56,7 @@
 				</ul>
 				<?php } ?>
 				<?php print $footer_message; ?>
-				<div id="uicons"><?php include("sites/all/files/icons/uicons.php"); ?></div>
+				<div id="uicons"><?php include(path_to_site() . "/icons/uicons.php"); ?></div>
 			</div><!-- .contact -->
 			<div class="span-1">&nbsp;</div>
 			<div id="footer-right" class="span-17 last">
