@@ -1,0 +1,21 @@
+name = Arts and Sciences Generic
+description = Generic A&S Theme.
+core = 6.x
+engine = phptemplate
+
+scripts[] = clearsearch.js
+
+stylesheets[all][] = styles/osu-navbar-media/css/navbar.css
+stylesheets[screen, projection][] = styles/blueprint/screen.css
+stylesheets[screen][] = styles/default.css
+stylesheets[all][] = styles/navbar.css
+
+regions[front_image] = front page image
+regions[front_links] = front page text
+
+regions[before_content] = before content
+regions[right] = right
+regions[MainNav] = main navigation
+regions[footer] = footer
+regions[footer_menu] = footer menu
+
