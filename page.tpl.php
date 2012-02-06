@@ -56,7 +56,7 @@
 				</ul>
 				<?php } ?>
 				<?php print $footer_message; ?>
-				<div id="uicons"><?php include(path_to_site() . "/icons/uicons.php"); ?></div>
+				<div id="uicons"><?php include(path_to_theme() . "/icons/uicons.php"); ?></div>
 			</div><!-- .contact -->
 			<div class="span-1">&nbsp;</div>
 			<div id="footer-right" class="span-17 last">
