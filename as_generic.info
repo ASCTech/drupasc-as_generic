@@ -5,7 +5,7 @@ engine = phptemplate
 
 scripts[] = clearsearch.js
 
-stylesheets[all][] = styles/osu-navbar-media/css/navbar.css
+stylesheets[all][] = styles/osu-navbar.css
 stylesheets[screen, projection][] = styles/blueprint/screen.css
 stylesheets[screen][] = styles/default.css
 stylesheets[all][] = styles/navbar.css
